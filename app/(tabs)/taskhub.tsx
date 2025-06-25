@@ -55,7 +55,7 @@ const TaskSection: React.FC<TaskSectionProps> = ({ title, data }) => (
   </View>
 );
 
-export default function App(): JSX.Element {
+const App: React.FC = () => {
   const sections: Task['section'][] = ['Today', 'Overdue', 'Upcoming', 'Completed'];
 
   return (
@@ -69,7 +69,9 @@ export default function App(): JSX.Element {
       ))}
     </ScrollView>
   );
-}
+};
+
+export default App;
 
 const styles = StyleSheet.create({
   container: {

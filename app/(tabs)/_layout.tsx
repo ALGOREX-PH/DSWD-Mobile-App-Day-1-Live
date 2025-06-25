@@ -38,7 +38,7 @@ export default function TabLayout() {
   options={{
     title: 'TaskHub',
     tabBarIcon: ({ color }) => (
-      <IconSymbol size={28} name="checkmark.circle.fill" color={color} />
+      <IconSymbol size={28} name="house.fill" color={color} />
     ),
   }}
 />
